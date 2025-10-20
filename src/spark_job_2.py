@@ -9,9 +9,9 @@ NET_IN_THRESHOLD = 3098.77
 DISK_IO_THRESHOLD = 4825.84
 
 # Input data files from Kafka consumers and output location
-net_csv = "consumed_data/net_data.csv"
-disk_csv = "consumed_data/disk_data.csv"
-out_csv = "team_128_NET_DISK.csv"
+net_csv = "../consumed_data/net_data.csv"
+disk_csv = "../consumed_data/disk_data.csv"
+out_csv = "../out/team_128_NET_DISK.csv"
 
 # Configure Spark for optimal performance with 8 partitions
 spark = (
