@@ -8,3 +8,9 @@ wheels/
 
 # Virtual environments
 .venv
+
+# consumed data
+consumed_data/
+
+# backup
+perfect/
